@@ -1,0 +1,2 @@
+# Stock-management-system
+Software engineering project - Ease buying and selling of shares in a stock exchange (SEM 4)
