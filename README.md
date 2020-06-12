@@ -3,6 +3,6 @@ Software engineering project - Ease buying and selling of shares in a stock exch
 
 Buy and sell shares.
 
-Backend - Flask
+Backend - Flask (missing)
 
-DB - MySQL
+DB - MySQL (missing)
