@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="images/tablogo.png" />
+	<script src="script.js"></script>
+	<title>Jaggu stock management system</title>
+</head>
+<body>
+	<!--Toolbar-->
+	<div class="toolbar">
+		<a href="homepage.html" class="logolink">
+			<img class="toolbarImage" src="images/logo2.jpg">
+		</a>
+		<ul class="toolbarList">
+			<li><a href="feedback.html" class="toolbarLink">FeedBack</a><span class="pipe"> | </span></li>
+			<li><a href="contactus.html" class="toolbarLink">Contact us</a></li>
+		</ul>
+	</div>
+	<!--Get Quote-->
+	<div class="Jaggu" style="background-color:rgba(255,255,255,1); padding:5px; text-align: center; font-size:3em; font-family:Verdana;">
+		<b>JAGGU STOCK MANAGEMENT SYSTEM</b>
+	</div>
+	<div style="background-color:rgba(150,150,150,0.5); border: 1px solid rgba(200,200,200,1); padding:50px; width:70%; margin:auto;">
+		<input type="text" name="custid" placeholder="Enter Customer ID" style="width:75%;padding:5px;">
+		<input type="button" value="Search"  style="float:right; padding: 5px;"></br></br>
+		<input type="button" value="View requests from all clients"  style="float:right; padding: 5px;" onclick="window.location.href = 'allrequests.html';">
+	</div>
+</body>
+</html>

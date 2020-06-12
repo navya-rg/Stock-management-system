@@ -1,0 +1,102 @@
+body {
+	background-image: url("images/background.JPG");
+}
+
+.toolbar {
+	padding:0px 0px;
+	background-color:rgba(16,72,107,1);
+	position:sticky;
+	top:0px;
+	z-index:1;
+}
+
+.toolbarImage {
+	width:3%;
+	padding: 0px 10px;
+	position:relative;
+	top: 5px;
+}
+
+.logolink {
+
+}
+
+
+a.toolbarLink:link{
+	text-decoration:none;
+	color:rgba(255,255,255,1);
+}
+a.toolbarLink:visited{
+	text-decoration:none;
+	color:rgba(255,255,255,1);
+}
+a.toolbarLink:hover{
+	text-decoration:none;
+	color:rgba(255,226,83,1);
+}
+a.toolBarLink:active{
+	text-decoration:none;
+	color:rgba(255,255,255,1);
+}
+
+.toolbarList {
+	display:inline-block;
+	font-family:Verdana;
+	font-size:1em;
+	list-style-type:none;
+	position:relative;
+	left:36.5%;
+	color:rgba(255,255,255,1);
+}
+.toolbarList li{
+	display:inline-block;
+}
+
+.jaggu {
+	background-color:rgba(255,255,255,0.4);
+	padding:5px;
+	text-align: center;
+	font-size:6em;
+	font-family:Verdana;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  background-color:rgba(150,150,150,0.5); 
+  border: 1px solid rgba(200,200,200,1);
+  margin: 10px;
+  padding: 20px;
+  font-size: 1.5em;
+  font-family:Verdana;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.formele {
+  width:75%;
+  float:right;
+  font-size:0.8em;
+}
+
+.tabl {
+	margin:auto;
+	width:99%;
+	font-family:Verdana;
+	font-size:1.5em;
+	border: 1px solid rgba(100,100,100,1);
+}
+
+.tabl th {
+	border: 1px solid rgba(140,140,140,1);;
+}
